@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en" ng-app="myApp">
+<head>
+  <meta charset="UTF-8">
+  <title>Angular Demo</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+    <script src="//angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.12.1.js"></script>
+
+  <script src="lib/angular/angular.min.js"></script>
+  <script src="lib/angular/angular-route.min.js"></script>
+  <script src="lib/angular/angular-animate.min.js"></script>
+
+  <script src="js/app.js"></script>
+  <script src="js/controllers.js"></script>
+
+    <script src="js/menu.js"></script>
+</head>
+<body>
+
+
+<!--row 1: logo-account-search -->
+
+<div class="container-fluid">
+    <div class="row row-logo">
+        <div class="colheader col-lg-3 col-md-3 col-sm-3 hidden-xs">
+            <a href="index.html"><img src="img/logo.png" alt="logo" class="img-responsive"></a>
+        </div>
+
+        <div class="colheader col-lg-9 col-md-9 col-sm-9 col-sm-9 hidden-xs">
+            
+                <span class="pull-right text-center">
+                    <a href="#/login/" class="btn menu-login"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> My Account</a><br>
+                    <a class="a-default" href="#">Sign up</a></span>
+                
+            
+        </div>
+    </div>
+</div>
+
+
+<!-- row 2: navigation bar -->
+<div class="jumbotron">
+    <div class="contaner-fluid">
+        <div class="row row-navigation">
+            <nav class="navbar navbar-default" role="navigation">
+                <div class="navbar-header">
+                    <button type="button" class="btn btn-11 navbar-toggle pull-left" style=" margin-left: 40px"><span class="glyphicon glyphicon-user glyphicon-collapse" aria-hidden="true"><a href="#"></a></span></button>
+                    <button type="button" class="btn btn-11 navbar-toggle pull-left"><span class="glyphicon glyphicon-search glyphicon-collapse" aria-hidden="true"><a href="#"></a></span></button>
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapse">
+                        <span class="sr-only">Toggle Navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="collapse">
+                    <ul class="nav nav-pills nav-justified">
+                        <li class="active menu-home"><a href="#" class="a-navigation">Home</a></li>
+                        <li class="menu-advert"><a href="#/advert/" class="a-navigation ">Advert</a></li>
+                        <li class="menu-about" ><a href="#/about/" class="a-navigation ">About</a></li>
+                        <li class="menu-contact"><a href="#/contact/" class="a-navigation ">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+        </div>
+    </div>
+</div>
+
+
+<div class="main" ng-view></div>
+
+<!-- row 5: footer -->
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="nav text-center">
+
+            <a class="a-footer menu-sitemap" href="#/sitemap/" class="a-navigation">Sitemap |</a>
+            <a class="a-footer menu-about" href="#/about/" class="a-navigation">About |</a>
+            <a class="a-footer menu-contact" href="#/contact/" class="a-navigation">Contact</a>
+
+        </div>
+    </div>
+</div>
+<!-- javascript -->
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<!-- row 4: latest adverts -->
+
+<div class="container">
+
+    <div class="row">
+        <div class="col-sm-6 col-lg-4 col-md-4" ng-repeat="product in products">
+            <div class="thumbnail">
+                <img class="img-responsive" ng-src="{{product.thumb}}" alt="{{product.name}}">
+                <div class="caption">
+                    <h3 class="pull-right">{{product.price | currency}}</h3>
+                    <h3><a class="a-white" href="#/details/{{products.indexOf(product)}}">{{product.name}}</a>
+                    </h3>
+                    <p>{{product.description}}</p>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</div>

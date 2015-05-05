@@ -1,0 +1,56 @@
+<!--row 1: logo-account-search -->
+
+<div class="container">
+ 
+            <div class="row">
+
+                 <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 "><span>
+                        <h4> Filter by</h4>
+                </div>
+
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" ><span stype="padding-bottom:10px">
+                        <select class="form-control" ng-model="search.breed">
+                            <option value="">Breed (Any)</option>
+                            <option value="alaska">Alaska Malamute</option>
+                            <option value="husky">Husky</option>
+                            <option value="akita">Akita Inu</option>
+                            <option value="samoyed">Samoyed</option>
+                            <option value="German Shepherd">German Shepherd</option>
+                        </select></span>
+                </div>
+
+               <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12"><span >
+                        <select class="form-control" ng-model="search.location">
+                            <option value="">Location (Any)</option>
+                            <option value="Ho Chi Minh">Ho Chi Minh</option>
+                            <option value="Ha Noi">Ha Noi</option>
+                            <option value="Da Nang">Da Nang</option>
+                            
+                        </select></span>
+                </div>
+
+            </div>
+            
+   
+</div>
+
+<!-- row 4: latest adverts -->
+
+<div class="container">
+
+    <div class="row">
+        <div class="col-sm-6 col-lg-4 col-md-4" ng-repeat="product in products | filter:search">
+            <div class="thumbnail">
+                <img class="img-responsive" ng-src="{{product.thumb}}" alt="{{product.name}}">
+                <div class="caption">
+                    <h3 class="pull-right">{{product.price | currency}}</h3>
+                    <h3><a class="a-white" href="#/details/{{products.indexOf(product)}}">{{product.name}}</a>
+                    </h3>
+                    <p>{{product.description}}</p><p hidden>{{product.breed}}</p>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</div>

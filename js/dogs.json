@@ -1,0 +1,107 @@
+[
+  	 {
+      "name": "Alaska Malamute",
+      "price": 24.99,
+      "description": "Registered Alaska Malamute. Have beautiful fur and love to play with kids.",
+      "thumb": "img/homepage-alaska.jpg",
+      "images1": "img/alaska1.jpg",
+      "images2": "img/alaska2.jpg",
+      "images3": "img/alaska3.jpg",
+      "contactTel": "Tel: 01233031172",
+      "contactEmail":"Email: alaska@gmail.com",
+      "breed": "Alaska",
+      "location":"Da Nang"
+ 
+      },
+
+   {
+      "name": "Akita",
+      "price": 100.99,
+      "description": "Registered Akita. Have beautiful fur and love to play with kids.",
+      "thumb": "img/homepage-akita.jpg",
+      "images1": "img/akita1.jpg",
+      "images2": "img/akita2.jpg",
+      "images3": "img/akita3.jpg",
+      "contactTel": "Tel: 01233031172",
+      "contactEmail":"Email: akita@gmail.com",
+      "breed": "Akita",
+      "location":"Ho Chi Minh"
+ 
+      },
+
+      {
+      "name": "Samoyed",
+      "price": 89.99,
+      "description": "Registered samoyed. Have beautiful fur and love to play with kids.",
+      "thumb": "img/homepage-samoyed.jpg",
+      "images1": "img/samoyed1.jpg",
+      "images2": "img/samoyed2.jpg",
+      "images3": "img/samoyed3.jpg",
+      "contactTel": "Tel: 01233031172",
+      "contactEmail":"Email: samoyed@gmail.com",
+      "breed": "Samoyed",
+      "location":"Da Nang"
+ 
+      },
+
+      {
+      "name": "German Shepherd",
+      "price": 29.99,
+      "description": "Registered German Shepherd. Have beautiful fur and love to play with kids.",
+      "thumb": "img/homepage-shepherd.jpg",
+      "images1": "img/shepherd1.jpg",
+      "images2": "img/shepherd2.jpg",
+      "images3": "img/shepherd3.jpg",
+      "contactTel": "Tel: 01233031172",
+      "contactEmail":"Email: shepherd@gmail.com",
+      "breed": "German Shepherd",
+      "location":"Ha Noi"
+ 
+      },
+
+      {
+      "name": "German Shepherd",
+      "price": 54.99,
+      "description": "Registered German Shepherd. Have beautiful fur and love to play with kids.",
+      "thumb": "img/homepage-shepherd2.jpg",
+      "images1": "img/shepherd1.jpg",
+      "images2": "img/shepherd2.jpg",
+      "images3": "img/shepherd3.jpg",
+      "contactTel": "Tel: 01233031172",
+      "contactEmail":"Email: shepherd@gmail.com",
+      "breed": "German Shepherd",
+      "location":"Ha Noi"
+ 
+      },
+
+      {
+      "name": "Husky",
+      "price": 24.99,
+      "description": "Registered Husky. Have beautiful fur and love to play with kids.",
+      "thumb": "img/homepage-husky.jpg",
+      "images1": "img/husky1.jpg",
+      "images2": "img/husky2.jpg",
+      "images3": "img/husky3.jpg",
+      "contactTel": "Tel: 01233031172",
+      "contactEmail":"Email: husky@gmail.com",
+      "breed": "Husky",
+      "location":"Ho Chi Minh"
+ 
+      },
+
+      {
+      "name": "Alaska Malamute",
+      "price": 24.99,
+      "description": "Registered Alaska Malamute. Have beautiful fur and love to play with kids.",
+      "thumb": "img/homepage-alaska.jpg",
+      "images1": "img/alaska1.jpg",
+      "images2": "img/alaska2.jpg",
+      "images3": "img/alaska3.jpg",
+      "contactTel": "Tel: 01233031172",
+      "contactEmail":"Email: alaska@gmail.com",
+      "breed": "Alaska",
+      "location":"Da Nang"
+ 
+      }
+    
+      ]
